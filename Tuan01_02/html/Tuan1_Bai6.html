@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuan1_Bai6</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+
+        table{
+            background-color: aliceblue;
+            align-items: center;
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100px;
+            height: 100px;
+        }
+        td{
+            text-align: center;
+            font-size: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div> 
+        <table border="1">
+            <tr>
+                <td>1</td>
+                <td colspan="4">2</td>
+            </tr>
+            <tr>
+                <td rowspan="3">3</td>
+                <td style="background-color: orange;">4</td>
+                <td style="background-color: orange;">5</td>
+                <td colspan="2" rowspan="2" style="background-color: yellow;">6</td>    
+            </tr>
+            <tr>
+                <td style="background-color: orange;">7</td>
+                <td style="background-color: orange;">8</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color: yellow;">9</td>
+                <td colspan="2" style="background-color: yellow;">10</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
