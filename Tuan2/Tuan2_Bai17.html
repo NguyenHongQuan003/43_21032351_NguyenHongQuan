@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuan2_Bai17</title>
+</head>
+<body style="background-color: rgb(233, 179, 78);">
+    <h3>Servey Form</h3>
+    <p>If you are interested in purchasing one or more of our products, before ordering please complete some or all of the following survey for our marketing department. Answering any question is optional, and all info
+        rmation will be kept strictly confidential. Thank you very much for your timel</p>
+    <form action="">
+        <p>1. What is your name? <br>
+            <input type="text">
+        </p>
+        <p>What is your date of birth?<br>
+            Month: <select name="" id="">
+                    <option value="">Januaray</option>
+                    <option value="">February</option>
+                    <option value="">March</option>
+                    <option value="">April</option>
+                    <option value="">May</option>
+                    <option value="">June</option>
+                    <option value="">July</option>
+                    <option value="">August</option>
+                    <option value="">September</option>
+                    <option value="">October</option>
+                    <option value="">November</option>
+                    <option value="">December</option>
+                    </select>
+            Date: <select name="" id="">
+                    <script>
+                        var i;
+                        for(i = 0; i<30; i++) {
+                            document.write("<option>"+(i+1)+"</option>")
+                        }
+                    </script>
+                </select>
+        </p>
+        <p>3. What is your mailing address (if you would like to have a hard copy of our catalog sent to 
+            you)? <br>
+            <textarea name="" id="" cols="30" rows="10">Number/P.O. Box/Route:
+                Street/Avenue/Road:
+                City:
+                State/Zip:</textarea>
+        </p>
+        <p>4. What is your email address? <br>
+            <input type="email">
+        </p>
+        <p>5. Have you viewed our online product catalog? <br>
+            <input type="radio" name="y/n">Yes
+            <input type="radio" name="y/n">No
+        </p>
+        <p>6. If so, what product(s), besides the one you are ordering,
+             might you be interested in purchasing in the future? (Check all that apply.)
+            <br>
+            <input type="checkbox">VCR <br>
+            <input type="checkbox">Big Screen TV <br>
+            <input type="checkbox">Audio Equipment <br>
+            <input type="checkbox">Video Equipment <br>
+            <input type="checkbox">Camera Equipment <br>
+            <input type="checkbox">Other <input type="text">
+        </p>
+        <p>7. Do you have any questions, comments or suggestions 
+            before proceeding to the Order Form?
+            <br>
+            <textarea name="" id="" cols="30" rows="10">Your Input</textarea>
+        </p>
+        <table>
+            <tr>
+                <td><input type="submit" value="Send Form"></td>
+                <td><input type="submit" value="Clear Form"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
