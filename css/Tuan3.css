@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 1089px;
+    background-color: rgb(198, 235, 235);
+    height: auto;
+    margin: 0 auto;
+}
+
+.wrapper > div header{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.bai1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border:  thin #000099 dashed;
+}
+
+.bai1 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 9px;
+    font-style: italic;
+    color: #CC0000;
+    /* text-decoration: blink; */
+}
+
+.bai1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    color: #FF3399;
+}
+
+.bai1 h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #FFFF00;
+}
+
+.bai1 h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-style: italic;
+    color: #009999;
+}
+
+.bai1 h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: lighter;
+    color: #009900;
+}
+
+.bai2 .container2a{
+    margin: 0 auto;
+}
+
+.bai2 .container2b{
+    display: flex;
+}
+
+.bai2 .container2b h3{
+    margin: 10px 20px;
+}
+
+.bai3 .table table{
+    margin: 0px auto;
+}
+
+.bai4 .table h3{
+    text-align: center;
+    color: brown;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.bai4 .table table{
+    margin: 0px auto;
+}
+
+.bai4 .table table{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bai4 .table table th{
+    color: #fff;
+}
+
+.bai4 .table table td{
+    color: black;
+}
+
+.bai4 .table table tr:nth-child(even){
+    background-color: rgb(211, 211, 211);
+}
+
+.bai4 .table td:nth-child(2){
+    text-align: right;
+}
+
+.bai5 .example1{
+    background-image: url(../img/exp1.jpeg), url(../img/exp2.jpeg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    height: 500px;
+}
+
+.bai6 .container{
+    text-align: center;
+}
+
+.bai6 .container .row{
+    width: 100%;
+}
+
+.bai6 .container .row:before, .row:after{
+    display: table;
+    content: "";
+}
+
+.bai6 .container .row:after{
+    clear: both;
+}
+
+.bai6 .container .col1, .col2, .col3{
+    float: left;
+    width: 25.33333%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.bai7 .newspaper{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+    -webkit-column-rule-style: solid;
+    -moz-column-rule-style: solid;
+    -webkit-column-rule-width: 1px;
+    -moz-column-rule-width: 1px;
+    column-rule-width: 1px;
+    -webkit-column-rule-color: lightblue;
+    -moz-column-rule-color: lightblue;
+    column-rule-color: lightblue;
+}
+
+.bai8{
+    height: 1800px;
+}
+
+.bai8 div{
+    margin: 20px 0 0 0;
+}
+
+.bai8 .border1 p{
+    border: 10px solid;
+    border-color:green gold aquamarine pink;
+    margin: 0px 200px;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.bai8 .border2 p{
+    border: 10px solid;
+    border-color:green gold aquamarine pink;
+    margin: 0px 200px;
+    padding: 40px;
+    background-color: #fff;
+    border-style: solid dotted groove double;
+}
+
+.bai8 .border3 p{
+    border: 10px solid;
+    border-color:green gold aquamarine pink;
+    margin: 0px 200px;
+    padding: 40px;
+    background-color: #fff;
+    border-width: 5px 10px 15px 20px;
+}
+
+.bai8 .border4 p{
+    border: 10px solid;
+    border-color:green gold aquamarine pink;
+    margin: 0px 200px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 0px 30px 70px 20px;
+}
+
+.bai8 .border5 p{
+    margin: 0px 200px;
+    padding: 40px;
+    background-color: #fff;
+    border-width: 4px 30px 4px 30px;
+    border-style: groove ridge dashed groove;
+    border-color: #cc0000;
+    border-radius: 100px 100px 0 0;
+    -moz-border-radius: 100px 100px 0 0;
+    -webkit-border-radius: 100px 100px 0 0;
+}
+
+.bai8 .border5 p{
+    border: 10px solid;
+    border-color:green gold aquamarine pink;
+    margin: 0px 200px;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.bai8 .border6 p{
+    border: 10px solid;
+    border-color: gold;
+    margin: 0px 200px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+.bai8 .border7 p{
+    border: 10px solid;
+    border-color:green gold aquamarine pink;
+    margin: 0px 200px;
+    padding: 40px;
+    background-color: #fff;
+    border-width: 0px 12px 0px 0px 12px;
+    border-style: double;
+    border-color: violet;
+    border-radius: 40px 40px 60px 60px;
+    -moz-border-radius: 40px 40px 60px 60px;
+    -webkit-border-radius: 40px 40px 60px 60px;
+}
+
+.bai8 .border8 p{
+    border: 10px solid;
+    border-color:green gold aquamarine pink;
+    margin: 0px 200px;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.bai8 .border9 p{
+    border: 10px solid;
+    border-color:green gold aquamarine pink;
+    margin: 0px 200px;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.bai9{
+    height: 400px;
+    text-align: center;
+}
+
+.bai9 .company-poster ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bai9 .company-poster li{
+    margin: 10px 25px;
+    border: 2px solid orange;
+    padding: 5px;
+}
+
+.bai9 .company-poster li:hover{
+    cursor: pointer;
+    border: 5px double rgb(187, 14, 14);
+}
+
+.bai9 .company-poster img{
+    height: 100px;
+    width: 200px;
+}
+
+.bai10{
+    height: 300px;
+}
+
+.bai10 #animated{
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 100px;
+    background: #ffcc00;
+}
+
+@-webkit-keyframes scroll {
+    to{
+        left: 100%;
+        -webkit-transform: rotate(180deg);
+    }
+}
+
+@-moz-keyframes scroll {
+    to{
+        left: 100%;
+        -moz-transform: rotate(180deg);
+    }
+}
+
+@-o-keyframes scroll {
+    to{
+        left: 100%;
+        -o-transform: rotate(180deg);
+    }
+}
+
+@keyframes scroll {
+    to{
+        left: 100%;
+        transform: rotate(180deg);
+    }
+}
+
+div#animated{
+    -webkit-animation-name: scroll; 
+    -moz-animation-name: scroll;
+    -o-animation-name: scroll; 
+    animation-name: scroll;
+    -webkit-animation-duration: 5s;
+    -moz-animation-duration: 5s;
+    -o-animation-duration: 5s; 
+    animation-duration: 5s; 
+    -webkit-animation-iteration-count: infinite; 
+    -moz-animation-iteration-count: infinite; 
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; 
+    -webkit-animation-timing-function: ease-in-out; 
+    Soz-animation-timing-function: ease-in-out; 
+    -o-animation-timing-function: ease-in-out; 
+    animation-timing-function: ease-in-out; 
+    -webkit-animation-direction: alternate;
+    -moz-animation-direction: alternate; 
+    -o-animation-direction: alternate; 
+    animation-direction: alternate;
+}
+
+
+
